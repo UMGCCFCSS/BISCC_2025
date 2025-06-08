@@ -2,6 +2,8 @@ project:
   type: website
   output-dir: docs/
 website:
+  page-navigation: true
+  bread-crumbs: true
   google-analytics: 
     tracking-id: "G-LZ35J3XE4D"
   announcement: 
@@ -20,13 +22,13 @@ website:
     - text: "Instruments"
       menu:
       - text: "Cytek Aurora 3L"
-        href: 3L.qmd
+        href: Day1_3L.qmd
       - text: "Cytek Aurora 4L"
-        href: 4L.qmd
+        href: Day1_4L.qmd
       - text: "Cytek Aurora 5L"
-        href: 5L.qmd
+        href: Day1_5L.qmd
       - text: "Cytek Aurora CS"
-        href: CS.qmd
+        href: Day1_CS.qmd
     - text: "Schedule"
       href: Schedule.qmd
     right:
@@ -37,6 +39,40 @@ website:
     - icon: github
       href: https://github.com/UMGCCFCSS/BISCC_2025
       aria-label: GitHub
+  sidebar:
+      style: floating
+      search: true
+      contents:
+        - text: ""
+          href: introduction.qmd
+        - section: "Aurora 3L"
+          contents:
+            - Day1_3L.qmd
+            - Day2_3L.qmd
+            - Day3_3L.qmd
+            - Day4_3L.qmd
+            - Day5_3L.qmd
+        - section: "Aurora 4L"
+          contents:
+            - Day1_4L.qmd
+            - Day2_4L.qmd
+            - Day3_4L.qmd
+            - Day4_4L.qmd
+            - Day5_4L.qmd
+        - section: "Aurora 5L"
+          contents:
+            - Day1_5L.qmd
+            - Day2_5L.qmd
+            - Day3_5L.qmd
+            - Day4_5L.qmd
+            - Day5_5L.qmd
+        - section: "Aurora CS"
+          contents:
+            - Day1_CS.qmd
+            - Day2_CS.qmd
+            - Day3_CS.qmd
+            - Day4_CS.qmd
+            - Day5_CS.qmd
   page-footer:
     background: light
     left: University of Maryland, Baltimore

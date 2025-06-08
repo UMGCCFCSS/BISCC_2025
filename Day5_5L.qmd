@@ -1,5 +1,5 @@
 ---
-title: "Day 1"
+title: "Day 5"
 page-layout: full
 toc: true
 ---
@@ -22,7 +22,7 @@ library(openCyto)
 #| warning: false
 #| message: false
 # Autofluorescence Signatures
-path <- file.path("/home", "david", "Desktop", "BISCC", "Aurora3L")
+path <- file.path("/home", "david", "Desktop", "BISCC", "Aurora5L")
 files <- list.files(path=path, pattern="Unstained", full.names=TRUE)
 MyCytoSet <- load_cytoset_from_fcs(files, truncate_max_range = FALSE, transform = FALSE)
 MyGatingSet <- GatingSet(MyCytoSet)
@@ -58,7 +58,7 @@ UnstainedSignature <- Luciernaga_QC(x=MyGatingSet[1],
                                     condition="test",
                                      minimalfcscutoff = 0.05)
 
-write.csv(UnstainedSignature, "data/Unstained3L.csv", row.names=FALSE)                                     
+write.csv(UnstainedSignature, "data/Unstained5L.csv", row.names=FALSE)                                     
 ```
 
 ### Panel
@@ -68,13 +68,13 @@ write.csv(UnstainedSignature, "data/Unstained3L.csv", row.names=FALSE)
 library(Luciernaga)
 library(dplyr)
 
-TheUnstained <- read.csv("data/Unstained3L.csv", check.names=FALSE)
+TheUnstained <- read.csv("data/Unstained5L.csv", check.names=FALSE)
 TheUnstained <- TheUnstained |> select(-Experiment, -Condition, -Count, -Sample) |> slice(1)
 Unstained <- TheUnstained
 
 Panel <- file.path("data", "Panel.csv")
-Panel <- read.csv(Panel, check.names=FALSE) |> dplyr::filter(Day %in% c(1))
-GT <- FluorophoreMatrix(data=Panel, NumberDetectors = 38)
+Panel <- read.csv(Panel, check.names=FALSE) |> dplyr::filter(Day %in% c(1, 2, 3, 4, 5))
+GT <- FluorophoreMatrix(data=Panel, NumberDetectors = 64)
 ```
 
 ```{r}
@@ -86,9 +86,9 @@ GT
 
 ```{r}
 #| code-fold: true
-Fluorophore <- FluorophoreMatrix(data=Panel, NumberDetectors = 38, returnType="data") |> pull(Fluorophore)
+Fluorophore <- FluorophoreMatrix(data=Panel, NumberDetectors = 64, returnType="data") |> pull(Fluorophore)
 
-Plots <- QC_ReferenceLibrary(FluorNameContains = Fluorophore, NumberDetectors=38,
+Plots <- QC_ReferenceLibrary(FluorNameContains = Fluorophore, NumberDetectors=64,
 returnPlots=TRUE, plotname=" ", exact=TRUE, unstained=Unstained)
 ```
 
@@ -101,10 +101,10 @@ plotly:: ggplotly(Plots[[2]])
 
 ```{r}
 #| code-fold: true
-TheFluorophores <- FluorophoreMatrix(data=Panel, NumberDetectors = 38,
+TheFluorophores <- FluorophoreMatrix(data=Panel, NumberDetectors = 64,
  returnType="data") |> pull(Fluorophore)
 
-Data <- Luciernaga:::InstrumentReferences(NumberDetectors=38)
+Data <- Luciernaga:::InstrumentReferences(NumberDetectors=64)
 Data <- Data |> dplyr::filter(Fluorophore %in% TheFluorophores) |> select(-Instrument) |>
     tidyr::pivot_wider(names_from = "Detector", values_from = "AdjustedY")
 
