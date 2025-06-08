@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: docs/
+website:
+  google-analytics: 
+    tracking-id: "G-LZ35J3XE4D"
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "Please see left-sidebar for definitions"
+    type: info
+    position: below-navbar  
+  title: "BISCC 2025"
+  site-path: "/BISCC_2025/"
+  navbar:
+    logo: images/hex.svg
+    left:
+    - text: "Home"
+      href: index.qmd
+    - text: "Instruments"
+      menu:
+      - text: "Cytek Aurora 3L"
+        href: 3L.qmd
+      - text: "Cytek Aurora 4L"
+        href: 4L.qmd
+      - text: "Cytek Aurora 5L"
+        href: 5L.qmd
+      - text: "Cytek Aurora CS"
+        href: CS.qmd
+    - text: "Schedule"
+      href: Schedule.qmd
+    right:
+    - text: "Materials"
+      href: help.qmd
+    - text: "InstrumentQC"
+      href: https://UMGCCFCSS.github.io/InstrumentQC
+    - icon: github
+      href: https://github.com/UMGCCFCSS/BISCC_2025
+      aria-label: GitHub
+  page-footer:
+    background: light
+    left: University of Maryland, Baltimore
+    right: Built with [Quarto](https://quarto.org/)
+format:
+  html:
+    theme: styles.scss

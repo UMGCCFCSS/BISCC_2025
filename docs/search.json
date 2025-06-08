@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "Day1_3L.html",
+    "href": "Day1_3L.html",
+    "title": "Matrix",
+    "section": "",
+    "text": "Matrix\n\n\nCode\nlibrary(dplyr)\nlibrary(Luciernaga)\n\nPanel &lt;- file.path(\"data\", \"Panel.csv\")\nPanel &lt;- read.csv(Panel, check.names=FALSE) |&gt; filter(Day %in% c(1))\nGT &lt;- FluorophoreMatrix(data=Panel, NumberDetectors = 38)\n\n\n\n\n\n\n\n\n\n\nD\nWV\nFluorophore\nAntigen\nD\nFluorophore\nAntigen\nD\nFluorophore\nAntigen\n\n\n\n\nV1\n428\n\n\n\n\n\n\n\n\n\n\nV2\n443\n\n\n\n\n\n\n\n\n\n\nV3\n458\n\n\n\n\n\n\n\n\n\n\nV4\n473\n\n\n\n\n\n\n\n\n\n\nV5\n508\n\n\nB1\n\n\n\n\n\n\n\nV6\n525\n\n\nB2\n\n\n\n\n\n\n\nV7\n542\nBV510\nCD8\nB3\nSpark Blue 550\nCD3\n\n\n\n\n\nV8\n581\n\n\nB4\n\n\n\n\n\n\n\nV9\n598\n\n\nB5\n\n\n\n\n\n\n\nV10\n615\nBV605\nCD4\nB6\n\n\n\n\n\n\n\nV11\n662\n\n\nB7\n7-AAD\nViability\nR1\n\n\n\n\n\n679\n\n\nB8\n\n\nR2\n\n\n\n\nV12\n695\n\n\nB9\n\n\nR3\n\n\n\n\nV13\n718\n\n\nB10\n\n\nR4\nAlexa Fluor 700\nCD45\n\n\n\n738\n\n\nB11\n\n\nR5\n\n\n\n\nV14\n750\n\n\n\n\n\n\n\n\n\n\n\n760\n\n\nB12\n\n\nR6\n\n\n\n\nV15\n781\n\n\nB13\n\n\nR7\n\n\n\n\nV16\n812\n\n\nB14\n\n\nR8\n\n\n\n\n\n\n\n\n\n\n\nFluorescent Signatures\n\n\n\n\n\n\n\n\nCosine (Similarity) Matrix\n\n\nUnmixing-dependent Spreading (UDS) Hotspot Matrix"
+  }
+]

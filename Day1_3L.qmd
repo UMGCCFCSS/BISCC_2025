@@ -1,0 +1,62 @@
+---
+page-layout: full
+toc: true
+---
+
+# Matrix
+
+```{r}
+#| include: false
+#| echo: false
+#| warning: false
+library(dplyr)
+library(Luciernaga)
+```
+
+```{r}
+#| code-fold: true
+library(dplyr)
+library(Luciernaga)
+
+Panel <- file.path("data", "Panel.csv")
+Panel <- read.csv(Panel, check.names=FALSE) |> filter(Day %in% c(1))
+GT <- FluorophoreMatrix(data=Panel, NumberDetectors = 38)
+```
+
+```{r}
+#| echo: FALSE
+GT 
+```
+
+# Fluorescent Signatures
+
+```{r}
+#| code-fold: true
+#| echo: false
+Fluorophore <- FluorophoreMatrix(data=Panel, NumberDetectors = 38, returnType="data") |> pull(Fluorophore)
+
+Plots <- QC_ReferenceLibrary(FluorNameContains = Fluorophore, NumberDetectors=38,
+returnPlots=TRUE, plotname="Fluorophore Signatures", exact=TRUE)
+```
+
+```{r}
+#| echo: false
+plotly:: ggplotly(Plots[[2]])
+```
+
+# Cosine (Similarity) Matrix
+
+```{r}
+#| code-fold: true
+#| echo: false
+Fluorophore <- FluorophoreMatrix(data=Panel, NumberDetectors = 38, returnType="data") |> pull(Fluorophore)
+```
+
+
+# Unmixing-dependent Spreading (UDS) Hotspot Matrix
+
+```{r}
+#| include: false
+
+#Luciernaga:::MagesCauldron(panelfluors=, unstained=)
+```
