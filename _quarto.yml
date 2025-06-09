@@ -32,8 +32,6 @@ website:
     - text: "Schedule"
       href: Schedule.qmd
     right:
-    - text: "Materials"
-      href: help.qmd
     - text: "InstrumentQC"
       href: https://UMGCCFCSS.github.io/InstrumentQC
     - icon: github
@@ -43,8 +41,6 @@ website:
       style: floating
       search: true
       contents:
-        - text: ""
-          href: introduction.qmd
         - section: "Aurora 3L"
           contents:
             - Day1_3L.qmd
