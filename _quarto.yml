@@ -34,8 +34,13 @@ website:
     right:
     - text: "InstrumentQC"
       href: https://UMGCCFCSS.github.io/InstrumentQC
-    - text: "Resources"
-      href: Resources.qmd
+    - menu:
+      -  text: "Resources"
+      -  href: Resources.qmd
+      -  text: "Unmixing Lecture"
+      -  href: https://umgccfcss.github.io/BSCC_2025/Rach_Unmixing2025.pptx
+      -  text: "Troubleshooting Lecture"
+      -  href: https://umgccfcss.github.io/BSCC_2025/Rach_Troubleshooting2025.pptx
     - icon: github
       href: https://github.com/UMGCCFCSS/BISCC_2025
       aria-label: GitHub
