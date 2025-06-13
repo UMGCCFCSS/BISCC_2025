@@ -1,0 +1,793 @@
+---
+title: "A small list of useful cytometry resources"
+date: "06/13/2025"
+layout: full
+format:
+  html: default
+link-citations: true
+link-bibliography: true
+toc: true
+toc-location: right
+fig-cap-location: top
+embed-resources: TRUE
+---
+Generalized links (not private) have been converted as far down as the Docker tag. 
+
+# Spectral Flow Cytometry
+
+[200416 Gardner Full Spectrum Cytometry](https://youtu.be/f2UalnbIsK0?si=KL0sAxGNG9mn_2_w "")
+- More introductory overall. 
+
+[OpenFlow: Full Spectrum Flow Cytometry with the Cytek Aurora](https://youtu.be/Lg2JV9eKGt4?si=W0-MwhK4Uu2fr9IH "")
+Crick/MSK walkthrough of the unmixing process
+
+[Full Spectrum Profiling │ Adam Davison │ Babraham Institute Spectral Symposium 2022](https://youtu.be/3YW0VTmOxY4?si=16WRwt6BqXtXGzSD "")
+
+[ChUG Cytometry Presents: Introduction to Spectral Unmixing](https://www.youtube.com/live/PbJXMBpaoQk?si=vM_bD2Z3DpRdY3BD "")
+- David Novo talks about unmixing paper
+
+[ChUG Podcast #15: Spectral Flow - What You Don't Know Is Out To Kill You](https://youtu.be/ZEAppcZxGvQ?si=nx0iPRuziM1ontjx "")
+
+
+
+
+## Panel Design
+[Full spectrum panel optimisation │ Laura Ferrer Font │ Babraham Institute Spectral Symposium 2022](https://youtu.be/M8dOQ5cMjzQ?si=KfYD_5b9m5l69wPM "")
+
+[Just Because You Don’t See It Doesn’t Mean It Isn’t There: Improved Assay Resolution with...](https://youtu.be/_6aai68fLfg?si=XORvrBlLOPfvSqNJ "")
+
+Alexis Gonzales talks autofluorescence
+
+## Staining
+[Overnight staining of flow cytometry samples │ Oliver Burton](https://youtu.be/-oPFM_3YyKU?si=OGtt8Xld0itir7Ne "")
+
+
+## Spectral Unmixing
+[Mathematics of spectral unmixing │Peter Mage │ Babraham Institute Spectral Symposium 2022](https://youtu.be/GozDzpuu3Ok?si=J6JFaOA518Jlvtsl "")
+
+[Unmixing on traditional instruments │ Christopher Hall │ Babraham Institute Spectral Symposium 2022](https://youtu.be/7dadyMd8R_c?si=0M-Fha649s0_6mu- "")
+
+[Spectral Unmixing - (Short video)](https://youtu.be/Ob3I7KplznA?si=3l_J2HKWLQmf6Y2V "")
+
+[Advanced Unmixing in SpectroFlo (Cytek Aurora)](https://youtu.be/YAVl2bcoEyE?si=a6qYiMCJU3WZNjt5 "")
+
+[FlowJo Webinar: Spectral Compensation 4/16/20](https://youtu.be/gyx5MTqVAtw?si=pBF_LCymup8gQnb8 "")
+
+
+## Autofluorescence
+
+[Advanced Tips for Organizing Unstained controls within SpectroFlo (Cytek Aurora)](https://youtu.be/dYkPKGOhE5Y?si=0vgEXYXuTpMU1ukx "")
+
+[ChUG #8 - Dealing with autofluorescence in spectral flow cytometry](https://youtu.be/vJsdM1B1uBU?si=UAq9Y--NQMqROh6g "")
+
+[Deciding on an Approach for Mitigating Autofluorescence](https://youtu.be/Wng_ixHPQKE?si=jPhjh9tZAG4YFiI5 "")
+
+[ChUG #8 - Dealing with autofluorescence in spectral flow cytometry](https://youtu.be/vJsdM1B1uBU?si=iEa_BdjtC-K1xLZ- "")
+
+[Heterogeneous Autofluorescence](https://youtu.be/1-YruN5SR_8?si=nCSBPGqh2OQvxnoC "")
+
+[Extracting Autofluorescence](https://youtu.be/Gg-m3OAY9-Y?si=cF1ieH089ib8ycze "")
+
+[Episode #23 - How does cell size affect autofluorescence?](https://youtu.be/mm-RnUBEIr4?si=LoMYw-KrPDKXisY1 "")
+
+[The Power of Autofluorescence Extraction Using Full Spectrum Profiling™](https://youtu.be/Nx10x_4bOQA?si=8LftdeJhjfoomjO6 "")
+
+## Analysis
+
+[2021 Flow Cytometry Data Analysis](https://youtu.be/q7JPJ12dqMY?si=Dat-wWhKFd_pIlAf "")
+
+[Enabling and Optimizing High Quality Spectral Cytometry Analysis](https://youtu.be/bWJmGRBFKxQ?si=uKrKzg6gEIQrLPnf "")
+
+[Tutorial on tSNE and FlowSOM Step-by-Step tool usage in FlowJo V10](https://youtu.be/OQe04SiT8I0?si=psKTAUO3XKbsZzg_ "")
+
+
+<br></br>
+
+# Flow Cytometry General
+
+[Flow Basics 2.1: The Basic Staining Protocol](https://youtu.be/gC4brjHbLkk?si=AnL69ghXXgIEwNFr "")
+
+[Flow cytometry staining buffers](https://youtu.be/n1ue780pNY0?si=6WVEwS3p_weTm4tL "")
+
+[Flow Cytometry & FACS | Beginner Data Interpretation Tutorial](https://youtu.be/haTSQ7-ZPPk?si=X5gq66_XHGNvSMIu "")
+
+[OpenFlow: Experimental Voltage Optimization in Diva](https://youtu.be/VhuZDPV85HU?si=Y5slsx8EUU6Q-vIM "")
+
+[Flow Cytometry Basics: How To Use Gates (floreada.io)](https://youtu.be/gLVouQhSv7Y?si=-kjyPuBBBgmf0-lQ "")
+
+Laura Johnston
+[How to decide which software and tool is best for calculating compensation (with bonus FlowJo tips)](https://youtu.be/rZUEJfRAn9o?si=gKs0tCBW8BTOAo6J "")
+
+[Compensation Nicolas Mar 17, 22](https://youtu.be/M168W8BCA_c?si=WdS62_q2riDRcg5e "")
+
+
+# Cytometry in R
+
+[Introduction to Flow Cytometry in R](https://youtu.be/0_dN8VKhOJ0?si=tf_nQVjJDWlo1fGB "")
+
+[Cytometry on Air: Analyzing Flow Cytometry Data using R](https://www.youtube.com/live/_B7mo6dB3BU?si=4J5HTJVRh4QcB07L "")
+
+[flow cytometer data analysis in RStudio](https://www.youtube.com/live/QJ6UazMoqIE?si=xo8_6MOqARZoNMDU "")
+
+[Flow Cytometry Data Analysis in R- Installation and loading data](https://youtu.be/2INqQNMNaV0?si=gqn6OO4mfAlYCk_t "")
+
+<br></br>
+
+# FlowJo FCS Express 
+
+[Python integration](https://youtu.be/tCBdgt_BJ7E?si=0T2AimK2Y_C75RH_ "")
+
+[How to use Plugins in FlowJo v10 Webinar](https://youtu.be/W6b2_yO84Mg?si=DAfNyixkh08DAX_o "")
+
+<br></br>
+
+
+# High-dimensional Analysis
+[2022 MetroFlow Annual Meeting Sofie Van Gassen](https://youtu.be/ihe7O3KkwIw?si=x5xkglBBdK3QjRDM "")
+
+[Normalization Advanced Webinar with Jack Panopoulos April 2022](https://youtu.be/0ijcD20q_JI?si=ke_vK1M67rtjDoBH "")
+
+[Webinar: Using CytoNorm with FlowJo](https://youtu.be/6HyMsOC-lWY?si=JePoNb3m5al__POn "")
+
+[05 FlowSOM and clustering](https://youtu.be/BltAbWELjA8?si=JTwF3efamN3vzKAR "")
+
+[20220517 Crossentropy test talk](https://youtu.be/xD-vZnlF_88?si=BRwvr3jc4b7BSvGk "")
+
+[Using Tercen To Run Bioconductor Pipelines: Save Time And Share Data Easy With Collaborators](https://youtu.be/n9G3V_4I51Y?si=pAYnktSNzcEOngYI "")
+
+[Integration, exploration, and analysis of high-dimensional single cell cytometry data using Spectre](hhttps://youtu.be/DamU2mngEg8?si=k7pgJUTILj1OD_a0 "")
+
+<br></br>
+
+
+# Dimensionality Visualization
+
+[PaCMAP: An algorithm for dimension reduction](https://youtu.be/sD-uDZ8zXkc?si=22zOvAabVd3hwGY4 "")
+
+[Neighbour embeddings for scientific visualization | Dmitry Kobak](https://youtu.be/CsUqmug7ZMc?si=ipBqNP_K2z5Ro5eA "")
+
+[Introduction to dimensionality reduction | Statistics for proteomics](https://youtu.be/nIB-WjWzDSc?si=IbGBRf4Sx1gVvsba "")
+
+<br></br>
+
+# Machine Learning General
+
+[Machine Intelligence - Lecture 1 (methods, history, definitions, Turing Test)](https://youtu.be/tExPpuk-UQ8?si=zZRG-wo7tFuI1R-s "")
+
+[Machine Intelligence - Lecture 7 (Clustering, k-means, SOM)](https://youtu.be/lFbxTlD5R98?si=6DwvMKm8dnJPIl6d "")
+
+<br></br>
+
+# General Data Science Intro
+
+[Hunter Glanz | The Five Principles of Data Science Education | RStudio (2020)](https://youtu.be/Gb1BcUx6CGk?si=fAHMXLTKKfeS9zyr "")
+
+<br></br>
+
+
+# Linear Modeling
+
+<br></br>
+
+## Linear Models
+
+Canada series, simple linear model, 2 continous variables.
+[Introduction to R 2023 | 04: Linear Models](https://youtu.be/pB3rrKIOQ94?si=4GU4hej09PLHKOQj "")
+
+
+## Generalized Linear Models
+Chloe's Intro GLM. 
+[How to interpret (and assess!) a GLM in R](https://youtu.be/boPyjojYHUY?si=WJwgqXOEvxG_CB-O "")
+
+
+Annoying voice-over guy but still. Big view, ehh
+[Understanding Generalized Linear Models (Logistic, Poisson, etc.)](https://youtu.be/SqN-qlQOM5A?si=VTkH63vXn4hREcn4 "")
+
+Canadas very basic may not be worth it.
+[Analysis Using R 2023 | 03: Linear Mixed Models and Evaluation](https://youtu.be/R0-KMhaMETw?t=485 "")
+
+Annoying voice-over guy, interaction two predictors. 
+[GLM Part 6: Interaction effects: How to interpret and identify them](https://youtu.be/3CCkeFShB3U?si=VwZI57ibVpN30Dd8 "")
+
+## Mixed Models
+Annoying voice-over guy, but decent. 
+[Mixed Models, Hierarchical Linear Models, and Multilevel Models: A simple explanation](https://youtu.be/c_tYZxQLoDA?si=fi3hiC6VQcb_7k5c "")
+
+Decent explanation of what your numbers mean
+[Linear mixed effects models - the basics](https://youtu.be/4bGG02Jsjyc?si=q8wQKn0NwOmuIVDD "")
+
+Annoying Voice Guy
+[How to decide whether an effect is fixed or random in mixed models](https://youtu.be/Lz-IBUxQG5A?si=2DbaD41cHC2-X-05 "")
+
+[Lecture 9.1 Introduction to Mixed Effects Models](https://youtu.be/QeCJ9ON0WDc?si=qMBuIiIkxdvB3bvC "")
+
+[Linear mixed effects models](https://youtu.be/QCqF-2E86r0?si=elTnTc0A_7ADldJK "")
+
+Keith Legit Mixed Factorial
+[Mixed Effect Regression for Factorial Designs](https://youtu.be/x467LStTtHU?si=3yqw-tbm0dvf9Ote "")
+
+## Longitudinal Mixed
+
+Keith Legit Mixed effect Longitudinal
+[Mixed Effects Models for Longitudinal Data](https://youtu.be/mX-GP_VELnk?si=mxDc_syqiRsV3PeH "")
+
+[Longitudinal Multilevel Modeling in R Studio (PART 1)](https://youtu.be/cr9RpSgRYVw?si=rHCFtaiE_j6ljn6s "")
+
+[Introduction to Bayesian Multilevel models](https://youtu.be/oGgJhOOnzZU?si=xNA63vJCSPjRxhNn "")
+
+[Paul Bürkner: An introduction to Bayesian multilevel modeling with brms](https://youtu.be/1qeXD4NQ4To?si=-ORR4TLr71L-kzAZ "")
+
+
+<br></br>
+
+## Differential Analysis
+
+Over an hour long MIT video.
+[21. Generalized Linear Models](https://youtu.be/X-ix97pw0xY?si=x8CcHwPQqbghDd-x "")
+
+Lior Pachter
+[Day 5 - Introductory Lecture: Single Cell Hypothesis Testing](https://www.youtube.com/watch?v=l6nv2dBJRtQ&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=366 "")
+
+This one!!!!
+[Differential Abundance Analysis in Proteomics](https://www.youtube.com/live/6s3ad8L49dU?si=hnurqkZNgbbaKCj1 "")
+
+And this one!
+[Linear Models for Differential Abundance Analysis](https://www.youtube.com/live/HWOllPTpnq0?si=YkP9RJAGlDSYGSmV "")
+
+[Statistical significance of differential protein abundance | Statistics for proteomics](https://youtu.be/teG856EiZAg?si=BA-cWksfKjSyRiUZ "")
+
+[Differential Expression for RNA-Seq Part 1: Using the limma Bioconductor package](https://youtu.be/SkiVEmAaxUQ?si=OiNDxB71fKibqIwN "")
+
+[Differential abundance and correlation analysis of microbiome data: Challenges and some solutions](https://youtu.be/WOSOirKKXIk?si=IzH1smXm5itcgAde "")
+
+<br></br>
+
+## Contrast and Design Matrices
+
+It's in EXCEL, why?!?!?! Visualize Dummy Variables for Regression
+[Statistics 101: Model Building, GLM Relationships Between ANOVA and Linear Regression](https://youtu.be/AVxojKRPsWg?si=rsiqkKzZ8zMNdj6P "")
+
+[Design Matrices For Linear Models, Clearly Explained!!!](https://youtu.be/CqLGvwi-5Pc?si=9ylK-A5FrTmQVbna "")
+
+[Day 6: Contrasts in linear models](https://youtu.be/yLgPpmXVVbs?si=oADDDihKgXiiI9A8 "")
+
+[Statistical Contrasts for Addressing Specific Scientific Hypotheses](https://youtu.be/Gvnpv6uPDRw?si=oPudp1yYiI_CqPEC "")
+
+[Contrasts](https://youtu.be/yq_yTWK4mNs?si=inlNoN1oJsrMIJLJ "")
+
+This one!!!
+[Introduction to this channel and what I hope to achieve here](https://youtu.be/HxutG3mf5Ws?si=OqTRnK_kZtfzL__1 "")
+
+[Linear Contrasts](https://youtu.be/c9krZdM635Y?si=iBlh2vkReYMTuzsy "")
+
+[Rat Study Part II: Orthogonality and Planned Comparisons - by hand](https://youtu.be/S2HrJTfU1E8?si=w42VOtP4lNr1wbXz "")
+
+[EPY 8214: A Priori and Post Hoc Comparisons](https://youtu.be/5lBx7RUl2dc?si=0GG4UqnUhcW-FaCp "")
+
+[Contrast coding](https://youtu.be/fXDNBeY2qp0?si=P0_UCA8ErjvYcYdA "")
+
+[Lab 8 Contrasts for Two Way MANOVA](https://youtu.be/0XMgJQ9TUUE?si=FPGbY8wD3tXsiSJQ "")
+
+<br></br>
+
+# Docker
+
+[Learn Docker in 7 Easy Steps - Full Beginner's Tutorial](https://www.youtube.com/watch?v=gAkwW2tuIqE&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=244 "")
+
+[Part 1 - An Introduction to Docker for Windows](https://www.youtube.com/watch?v=7ra_tB2q0O0&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=230 "")
+
+<br></br>
+
+# GitHub
+
+[Git and GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=305 "")
+
+[Best git/GitHub practices when adapting code](https://www.youtube.com/watch?v=Lzl1zu-HCZ4&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=191 "")
+
+[First Steps in Learning the Use of Git & GitHub in RStudio](https://www.youtube.com/watch?v=jN6tvgt3GK8&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=374 "")
+
+<br></br>
+
+# Quarto
+
+[Introducing R Markdown Notebooks](https://www.youtube.com/watch?v=zNzZ1PfUDNk&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=405 "")
+
+[R Markdown Advanced Tips to Become a Better Data Scientist & RStudio Connect | With Tom Mock](https://www.youtube.com/watch?v=WkF7nqEYF1E&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=401 "")
+
+[Dr. Thomas Mock - Higher, Further, Faster with Marvelous RMarkdown](https://www.youtube.com/watch?v=eCfLRjtRM-M&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=379 "")
+
+[Beautiful reports and presentations with Quarto | Led by Tom Mock, RStudio](https://www.youtube.com/watch?v=hbf7Ai3jnxY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=359 "")
+
+[BioC 2022 - Hello, Quarto!](https://www.youtube.com/watch?v=YVa5cdkypbw&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=351 "")
+
+[R-Ladies Freiburg (English) - Getting to know Quarto](https://www.youtube.com/watch?v=shVSmYna3GM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=329 "")
+
+[Blogging with Quarto: a 10 minute getting started tutorial](https://www.youtube.com/watch?v=YoKjBcuUP0s&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=317 "")
+
+[Building a Blog with Quarto | Led by Isabella Velásquez, RStudio](https://www.youtube.com/watch?v=CVcvXfRyfE0&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=319 "")
+
+[Create beautiful documents with Quarto and R](https://www.youtube.com/watch?v=y5VcxMOnj3M&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=314 "")
+
+[Get started with Quarto | Mine Çetinkaya-Rundel](https://www.youtube.com/watch?v=_f3latmOhew&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=301 "")
+
+[Daniel Chen - Moving to Quarto from RMarkdown and Python Jupyter Notebooks](https://www.youtube.com/watch?v=9oUR3LbXPxg&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=232 "")
+
+[Automated analysis, reporting and presentations using R and LaTex](https://www.youtube.com/watch?v=fNqPDw3mxCE&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=109"")
+
+[Styling and Templating Quarto Documents - posit::conf(2023)](https://www.youtube.com/watch?v=CblUFMoC9yg&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=90 "")
+
+[Reproducible Manuscripts with Quarto - posit::conf(2023)](https://www.youtube.com/watch?v=BoiW9UWDLY0&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=91 "")
+
+[Parameterized Quarto Reports Improve Understanding of Soil Health - posit::conf(2023)](https://www.youtube.com/watch?v=lbE5uOqfT70&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=94 "")
+
+[Parameterized Reporting with Quarto, R by Jadey Ryan](https://youtu.be/kQn82pa04jQ?si=dnQR5fmzi1GBQ4tI "")
+
+[Using Quarto for revealjs slides](https://youtu.be/cW9vFhpGFgw?si=typdP9y2gyzz3DuQ "")
+
+[LaTeX for R users](https://www.youtube.com/watch?v=eU_68QcZOi4&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=22 "")
+
+[Using Quarto with R and Python for reports, slides, and web publishing](https://www.youtube.com/watch?v=16V-iX42pxs&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=51 "")
+
+<br></br>
+
+# R for Begginers
+
+[Tutorial on 80% of everything you will EVER need to know in R (for ecology) [IN ONE HOUR]!](https://www.youtube.com/watch?v=dQe3Z7hRG1s&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=315 "")
+
+
+<br></br>
+
+# HTML in R
+[HTML and CSS for R Users with Albert Rapp](https://www.youtube.com/watch?v=Y80iGc5Vjyc&list=WL&index=13&t=11s "")
+
+[Carson Sievert || Using tagQuery() from {htmltools} to modify HTML snippets in R || RStudio](https://www.youtube.com/watch?v=jVh05izjHMI&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=52 "")
+
+[Quickly get your Quarto HTML theme in order - posit::conf(2023)](https://www.youtube.com/watch?v=i2mdxfvm_VY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=98 "")
+
+<br></br>
+
+# Parallelization in R
+[Parallel Programming with R](https://www.youtube.com/watch?v=O8PiX9ofXDI&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=289 "")
+
+[Henrik Bengtsson | Future: Simple Async, Parallel & Distributed Processing in R | RStudio (2020)](https://www.youtube.com/watch?v=FRF0c0Wls3E&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=281 "")
+
+[How to run your R code in parallel with the furrr package (CC127)](https://www.youtube.com/watch?v=hlx3-iv6HIQ&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=61 "")
+
+[Bryan Lewis | Parallel computing with R using foreach, future, and other packages | RStudio (2020)](https://www.youtube.com/watch?v=GC5VXjc52t0&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=188 "")
+
+[Parallelization in R](https://www.youtube.com/watch?v=FF5jOZsdMrA&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=266 "")
+
+[Speeding up computations in R with parallel programming in the cloud](https://www.youtube.com/watch?v=x7Kyp4cb7wk&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=278 "")
+
+<br></br>
+
+# Cloud Computing
+
+[00 1 intro - aws-for-bioinformatics](https://www.youtube.com/watch?v=qBW1pFSW9n4&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=326 "")
+
+[AWS In 10 Minutes | AWS Tutorial For Beginners | AWS Training Video | AWS Tutorial | Simplilearn](https://www.youtube.com/watch?v=r4YIdn2eTm4&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=327 "")
+
+<br></br>
+
+# Cytoverse
+
+[Workshop: Reproducible and programmatic analysis of flow cytometry experiments with the cytoverse](https://www.youtube.com/watch?v=_8x-prIxJgw&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=207 "")
+
+<br></br>
+
+# Tidyverse in R
+
+[Join data frames in R with inner_join and anti_join (CC254)](https://www.youtube.com/watch?v=3rVvgfcpM-k&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=110 "")
+
+<br></br>
+
+
+# Stats in R
+
+[Chapter 1, Part 1: Introduction](https://www.youtube.com/watch?v=ZKXzc-MfLVQ&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=385 "")
+
+[Logistic regression in R](https://www.youtube.com/watch?v=E7J3M1oYVlc&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=237 "")
+
+[Creating and tidying linear models in R with "broom" | R Tutorial (2020)](https://www.youtube.com/watch?v=uXmmskpcasc&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=177 "")
+
+[Hadley Wickham: Managing many models with R](https://www.youtube.com/watch?v=rz3_FDVt9eg&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=156 "")
+
+[The broom R package - Tidy statistical objects in R](https://www.youtube.com/watch?v=a-6i4N1LBUQ&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=146 "")
+
+[Statistical Modelling in R](https://www.youtube.com/watch?v=AYLY10wk6PY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=200 "")
+
+[Broom: Converting Statistical Models to Tidy Data Frames](https://www.youtube.com/watch?v=7VGPUBWGv6g&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=202 "")
+
+# Longitudinal Time Series Data
+
+[Introduction to Longitudinal Data Analysis](https://www.youtube.com/watch?v=AZdOSpdW2dM&list=WL&index=40 "")
+
+[The Bayesians are Coming to Time Series](https://www.youtube.com/watch?v=P_RnURpkgdE&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=284 "")
+
+[ACRM 2022 IC17: Longitudinal Data Analysis Using R: Part I Introductory Topics](https://www.youtube.com/watch?v=2ETfg35yk04&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=246 "")
+
+<br></br>
+
+
+# GAMs and Spline
+
+[Generalized Additive Models: Allowing for some wiggle room in your models](https://www.youtube.com/watch?v=2bsBDXza9j0&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=249 "")
+
+[Statistical Methods Series: Generalized Additive Models (GAMs)](https://www.youtube.com/watch?v=Ukfvd8akfco&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=239 "")
+
+[Noam Ross - Nonlinear Models in R: The Wonderful World of mgcv](https://www.youtube.com/watch?v=q4_t8jXcQgc&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=235 "")
+
+[Polynomial Regression and Splines](https://www.youtube.com/watch?v=D06d88NLdR4&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=199 "")
+
+[Introduction to Generalized Additive Models with R and mgcv](https://www.youtube.com/watch?v=sgw4cu8hrZM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=223 "")
+
+<br></br>
+
+
+# Dataframes and Tibbles
+[What's the difference between a matrix, data frame, and tibble in R? (CC180)](https://www.youtube.com/watch?v=og-7bG2i9TU&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=211 "")
+
+[Using nest, mutate, map, and unnest in R to analyze data frames within data frames (CC056)](https://www.youtube.com/watch?v=JclmiRiY9TE&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=217 "")
+
+[R List Columns: purrr map and nesting (STAT 545 Episode 2-B)](https://www.youtube.com/watch?v=_731PZ8I9m0&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=218 "")
+
+<br></br>
+
+
+# Tidy Data
+
+
+[Stat 412 6: Advanced Data Wrangling with dplyr](https://www.youtube.com/watch?v=x30U0pG02Ho&list=WL&index=35 "")
+
+[R-Ladies Freiburg (English) - Tidy data: Wrangling for statistical analysis in R - Kyla McConnell](https://www.youtube.com/watch?v=NRgdTaAfwTo&list=WL&index=53&t=19s "")
+
+[George Mount | R for Excel Users - First Steps | RStudio Meetup](https://www.youtube.com/watch?v=hyvClyUOY04&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=404 "")
+
+[Tidy Data and tidyr -- Pt 2 Intro to Data Wrangling with R and the Tidyverse](https://www.youtube.com/watch?v=1ELALQlO-yM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=364 "")
+
+[R-Ladies Freiburg (English) - Tidy data: Wrangling for statistical analysis in R - Kyla McConnell](https://www.youtube.com/watch?v=NRgdTaAfwTo&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=311 "")
+
+[Cleaning Excel Data Using R](https://www.youtube.com/watch?v=xhMNW3Y6C2Q&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=253 "")
+
+<br></br>
+
+
+# Shiny and Dashboards
+
+[Tutorial: Create and Customize a Simple R Shiny Dashboard](https://www.youtube.com/watch?v=41jmGq7ALMY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=362 "")
+
+[eCharts4r - Your New Favourite R Package for Interactive Visualization](https://www.youtube.com/watch?v=TN10L3QrBXQ&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=350 "")
+
+[TidyTuesday: Flexdashboard vs Shinydashboard](https://www.youtube.com/watch?v=AVmfWL43B70&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=271 "")
+
+[Animated Data Visualizations with {gganimate} for Science Communication during the Pandemic](https://www.youtube.com/watch?v=ArB6y1i1gOs&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=272 "")
+
+<br></br>
+
+
+# ggplot2 in R
+[Level Up Your Plots with Cara Thompson](https://www.youtube.com/watch?v=_indbXPXUw8&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=340 "")
+
+[June Choe | Cracking open ggplot internals with {ggtrace} | RStudio (2022)](https://www.youtube.com/watch?v=dUBnitXf5mk&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=261 "")
+
+[Oikos Workshop: Data visualization in R using ggplot2](https://www.youtube.com/watch?v=vjJW1m7VZyE&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=252 "")
+
+[Stylish Scatter Plot using ggplot2 in R](https://www.youtube.com/watch?v=gLotp9LRZh4&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=250 "")
+
+[Lines, scales and labels | Data on display: visualizing data with ggplot2 in R (lesson 3)](https://www.youtube.com/watch?v=c60zRV7t6CM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=210 "")
+
+[Data visualization with R in 36 minutes](https://www.youtube.com/watch?v=McL9MMwmIZY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=198 "")
+
+
+[Adding lines and asterisks of statistical significance on a figure with ggplot2 (CC093)](https://www.youtube.com/watch?v=30mqU2vcx68&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=185 "")
+
+[GGPLOT2: The Basics](https://www.youtube.com/watch?v=v_wuaPSbOgk&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=184 "")
+
+[patchwork: The ggplot2 plot combiner](https://www.youtube.com/watch?v=_lEwfZbyu48&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=182 "")
+
+[GGPLOT2: Publication Quality Figures](https://www.youtube.com/watch?v=Pjc_pZuyGDU&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=181 "")
+
+[How to Export High Quality Image from R](https://www.youtube.com/watch?v=rPG9aJxkixc&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=178 "")
+
+[Creating a stacked barchart in R with ggplot2 (CC102)](https://www.youtube.com/watch?v=NVym44SdcaE&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=172 "")
+
+[Scatterplots in R with geom_point() and geom_text/label()](https://www.youtube.com/watch?v=sk59wjdmrd8&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=168 "")
+
+[Improving the appearance of a stacked barchart with ggplot2, dplyr, and forcats (CC103)](https://www.youtube.com/watch?v=w4X3o6MQjVA&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=170 "")
+
+[How to create a relative abundance barplot with ggplot2](https://www.youtube.com/watch?v=siIoupAnILk&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=169 "")
+
+[How to make Stacked Bar Chart in R | RStudio](https://www.youtube.com/watch?v=4bCOKdrlGYo&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=162 "")
+
+[Use these five easy steps on every chart](https://www.youtube.com/watch?v=BbzUucZkrns&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=143 "")
+
+[Master Boxplot Visualization in R with ggplot and ggpubr | Your Ultimate Guide to the ggplot Package](https://www.youtube.com/watch?v=ALglC04jLCo&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=140 "")
+
+[{ggplot2} Wizardry](https://www.youtube.com/watch?v=5KHvEXYtnOo&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=139 "")
+
+[Plotting interactive visualizations with Plotly in R](https://www.youtube.com/watch?v=WmofiOklux8&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=106 "")
+
+[R-Ladies Rome (English) - Ten tips for better text: typography meets ggplot and friends](https://www.youtube.com/watch?v=ZC6GdgzBs88&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=89 "")
+
+[Summer Workshop Series: Crafting Publication Quality Data Visualizations With ggplot2](https://www.youtube.com/watch?v=huLeM4EL1aQ&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=26 "")
+
+[Summer Workshop Series: Exploring the Wide World of ggplot2 Extensions](https://www.youtube.com/watch?v=BfYu_Xb_Bfw&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=81 "")
+
+[How to create a heatmap in R with geom_tile and geom_text from ggplot2 (CC105)](https://www.youtube.com/watch?v=-4sGamyqGAQ&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=85 "")
+
+<br></br>
+
+
+# Tables in R
+[Making high-quality tables in R with the gt package: a conversation with Tom Mock](https://www.youtube.com/watch?v=dxDeotwylr8&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=226 "")
+
+[Publication-ready tables using gtsummary + Rmarkdown - Part 2: creating Table 1](https://www.youtube.com/watch?v=J6ruf63xEmw&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=115 "")
+
+[Creating Publication-Ready Summary Tables with {gtsummary}](https://www.youtube.com/watch?v=ko9vCHYJD7Q&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=119 "")
+
+[R package reviews {gtsummary} Publication-Ready Tables of Data, Statistical Tests and Models!](https://www.youtube.com/watch?v=hyP3Hx_1kTM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=120 "")
+
+[Presentation-ready Summary Tables with {gtsummary}](https://www.youtube.com/watch?v=tANo9E1SYJE&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=121 "")
+
+<br></br>
+
+
+# Iteration in R
+
+[Iteration Without Loops in R: The apply Family](https://www.youtube.com/watch?v=elSMNG_77X4&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=292 "")
+
+[How to Use lapply, sapply and mapply in R](https://www.youtube.com/watch?v=34sbvhr_pm8&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=293 "")
+
+<br></br>
+
+
+# Functional Programming
+[Hadley Wickham | {purrr} 1.0: A complete and consistent set of tools for functions and vectors](https://www.youtube.com/watch?v=EGAs7zuRutY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=277 "")
+
+[Write R functions like a pro in 6 minutes](https://www.youtube.com/watch?v=EvIn_NqIS9I&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=236 "")
+
+[How to purrr](https://www.youtube.com/watch?v=nd-Y8b22YaQ&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=215 "")
+
+[Using the purrr and broom R packages to easily perform thousands of statistical tests (CC112)](https://www.youtube.com/watch?v=lhst1oc9mKQ&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=216 "")
+
+[Functional Programming using the Purrr Package webinar](https://www.youtube.com/watch?v=GxvccD8K49M&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=214 "")
+
+[R advanced functions that will make your life easier](https://www.youtube.com/watch?v=aHiwr3-xJLM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=213 "")
+
+[A tutorial for writing functions in R (CC177)](https://www.youtube.com/watch?v=3uK1OzA7CTs&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=209 "")
+
+["The Joy of Functional Programming (for Data Science)" with Hadley Wickham](https://www.youtube.com/watch?v=bzUmK0Y07ck&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=208 "")
+
+[R-Ladies Rabat (English) - Iterating well with purrr! - Shannon Pileggi, PhD](https://www.youtube.com/watch?v=Uul_Hpih9dM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=189 "")
+
+[TidyTuesday: A Brief Overview of Functional Programming with Purrr](https://www.youtube.com/watch?v=b5Mt4Kzp3BU&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=176 "")
+
+[R Ladies Baltimore | Make your R code purr with purrr](https://www.youtube.com/watch?v=IewsPpjKElc&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=149 "")
+
+[Intro to Functional Programming with R](https://www.youtube.com/watch?v=MuOxlUN9q4E&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=151 "")
+
+[Intro to R Programming - Writing Functions](https://www.youtube.com/watch?v=l_XIAdUis1o&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=112 "")
+
+
+[Ch 7, Video 11: More on nesting and mapping](https://www.youtube.com/watch?v=djNbWXhhDRs&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=88 "")
+
+<br></br>
+
+
+# R and Python
+
+[Sean Lopp & Lou Bajuk | R & Python: A Data Science Love Story | RStudio (2020)](https://www.youtube.com/watch?v=_50yZxOome4&list=WL&index=58&t=2468s "")
+
+[Using Python in R](https://www.youtube.com/watch?v=qATvD6kQ47s&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=355 "")
+
+[Use Python in RStudio](https://www.youtube.com/watch?v=wEC1BCWe1_I&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=356 "")
+
+[Combining R & Python with reticulate](https://www.youtube.com/watch?v=ooXb27CHuR4&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=341 "")
+
+[R-Ladies Baltimore | Reticulate RStudio and your R code with Python | Timbers](https://www.youtube.com/watch?v=U3ByGh8RmSc&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=302 "")
+
+[ds.rpy: Running Python code from RStudio](https://www.youtube.com/watch?v=moAei68dxr0&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=304 "")
+
+<br></br>
+
+
+# R with C++/Rust
+
+[Jared P. Lander - Taking R From Hours to Seconds](https://www.youtube.com/watch?v=c9Dp2HmtVSM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=219 "")
+
+[Claus Wilke - The extendr project: Integrating R and Rust](https://www.youtube.com/watch?v=EX7YG2pmcC8&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=192"")
+
+[A Data Scientist's Guide to the Rust Programming Language | Sussex Data Science](https://www.youtube.com/watch?v=E_je8_5WeDk&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=171 "")
+
+[Make your R code 18,878 times faster! (Abridged) | R Programming](https://www.youtube.com/watch?v=dhfM4xeHVHI&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=155 "")
+
+[YEGRUG 2023/11: R and Rust, like a match made in heaven with Andrés Felipe Quintero](https://www.youtube.com/watch?v=EXd-bHyk0dM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=103 "")
+
+[Extending R with C++: Motivation, Introduction and Examples - Part 1](https://www.youtube.com/watch?v=EXGhR-kyjRg&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=18, "")
+
+[Jim Hester - cpp11 - welding R and C++ - SatRday Columbus 2020](https://www.youtube.com/watch?v=_kq0N0FNIjA&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=19 "")
+
+<br></br>
+
+
+
+# Epidemiology Lingo
+[Benedicte Colnet: Risk ratio, odds ratio, risk difference... Which measure is easier to generalize?](https://www.youtube.com/watch?v=s9F4WZma2rA&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=269 "")
+
+[Niels Richard Hansen: Cyclic graphical models and causal learning](https://www.youtube.com/watch?v=BgEE1_7Id1U&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=316 "")
+
+[Epidemiology for Bioinformaticians](https://www.youtube.com/watch?v=u2ahgX823Fg&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=274 "")
+
+<br></br>
+
+# Github Actions
+[R-Ladies Cologne & Paris (English) - GitHub Actions and Quarto - Angelica Becerra](https://www.youtube.com/watch?v=aqTM450K6jE&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=312 "")
+
+[How to Use GitHub Actions with R to Run Code Automatically](https://www.youtube.com/watch?v=u-TcADhWosA&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=267 "")
+
+[GitHub Actions Tutorial | From Zero to Hero in 90 minutes (Environments, Secrets, Runners, etc)](https://www.youtube.com/watch?v=TLB5MY9BBa4&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=225 "")
+
+[Running code while we're sleeping: Introduction to GitHub Actions for R Users by Beatriz Milz](https://www.youtube.com/watch?v=ZANp3oqcH_0&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=142 "")
+
+[rworkflows: taming the Wild West of R packages](https://www.youtube.com/watch?v=nLIG2prEmCg&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=44 "")
+
+[Getting into the flow with rworkflows: an introductory tutorial](https://www.youtube.com/watch?v=vcpMsil3EAU&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=43 "")
+
+<br></br>
+
+# Statistical Soapbox
+[How to get your article rejected by the BMJ: 12 common statistical issues](https://www.youtube.com/watch?v=iu4VsEv1WIo&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=24"")
+
+<br></br>
+
+# Andrew Gelman and P-value critique
+
+[Keynote 2: Weakly Informative Priors -- Andrew Gelman](https://www.youtube.com/watch?v=UH6-9FU6bRg&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=378 "")
+
+[Prof. Andrew Gelman: the Most Important Statistical Ideas in the Past 50 Years](https://www.youtube.com/watch?v=M6ha2UeSZbo&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=349 "")
+
+[Andrew Gelman - Solve All Your Statistics Problems Using P-Values](https://www.youtube.com/watch?v=ZmbrsbYwRWw&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=167 "")
+
+<br></br>
+
+# Causal Inferance
+[Sander Greenland at Judea Pearl Symposium](https://www.youtube.com/watch?v=-ZYwaQQpsz0&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=254 "")
+
+[Introduction To Causal Inference And Directed Acyclic Graphs](https://www.youtube.com/watch?v=Ts0hnNBRIWg&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=297 "")
+
+<br></br>
+
+# Power in Statistics
+[What is statistical power](https://www.youtube.com/watch?v=-ZU7fbvSJ60&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=251 "")
+
+<br></br>
+
+
+# Distribution and Probabilities
+[Computing normal probabilities: examples](https://www.youtube.com/watch?v=Ob0xK2TDidY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=174 "")
+
+[Lecture 1: Probability and Counting | Statistics 110](https://www.youtube.com/watch?v=KbB0FjPg0mw&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=188 "")
+
+[All About that Bayes: Probability, Statistics, and the Quest to Quantify Uncertainty](https://www.youtube.com/watch?v=eDMGDhyDxuY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=384 "")
+
+<br></br>
+
+# Topology Manifolds AI
+[Geometry & Topology in Machine Learning](https://www.youtube.com/watch?v=sS8zRGgPLNc&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=196 "")
+
+<br></br>
+
+# Stan
+
+[#6 A principled Bayesian workflow, with Michael Betancourt](https://www.youtube.com/watch?v=-hN0bCLw6ug&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=382 "")
+
+[Bayesian Modeling with R and Stan (Reupload)](https://www.youtube.com/watch?v=QqwCqPYbatA&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=275 "")
+
+[Why R? Webinar 035 - Paul Buerkner - brms: Bayesian Regression Models using Stan](https://www.youtube.com/watch?v=OUyB4kiJcWE&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=260 "")
+
+[Some Bayesian Modeling Techniques in Stan](https://www.youtube.com/watch?v=uSjsJg8fcwY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=256 "")
+
+[Introduction to Bayesian Statistics - A Beginner's Guide](https://www.youtube.com/watch?v=NIqeFYUhSzU&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=205 "")
+
+[17. Bayesian Statistics](https://www.youtube.com/watch?v=bFZ-0FH5hfs&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=195"")
+
+[R-Ladies Amsterdam: Intro to Bayesian Statistics in R by Angelika Stefan](https://www.youtube.com/watch?v=EBGKzDAAWYo&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=166 "")
+
+[BDA course 1.1 Introduction to uncertainty and modelling](https://www.youtube.com/watch?v=AcKRob0C8EY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=158 "")
+
+[Stan and probabilistic programming introduction](https://www.youtube.com/watch?v=i3bsPqQFqP0&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=159 "")
+
+[How to write your first Stan program](https://www.youtube.com/watch?v=YZZSYIx1-mw&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=102 "")
+
+[Getting started with Stan in R](https://www.youtube.com/watch?v=4t6niM6sksI&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=78 "")
+
+[Linear regression made easy with Stan](https://www.youtube.com/watch?v=UQtFkEOg9SM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=46 "")
+
+<br></br>
+
+# Linear Algebra
+[The Big Picture of Linear Algebra](https://www.youtube.com/watch?v=ggWYkes-n6E&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=399 "")
+
+[Least Squares Approximation | MIT 18.06SC Linear Algebra, Fall 2011](https://www.youtube.com/watch?v=eJqreNZPS64&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=371 "")
+
+[Linear Algebra Video #48: Overdetermined Systems & Least Squares](https://www.youtube.com/watch?v=uYyYchnwgpc&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=373 "")
+
+[Introduction to Linear Algebra and Statistics for Data Science](https://www.youtube.com/watch?v=fy0XIX_SdgY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=372 "")
+
+[Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra](https://www.youtube.com/watch?v=PFDu9oVAE-g&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=365 "")
+
+[Gil Strang's Final 18.06 Linear Algebra Lecture](https://www.youtube.com/watch?v=lUUte2o2Sn8&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=300 "")
+
+[Geometry of Linear Algebra | MIT 18.06SC Linear Algebra, Fall 2011](https://www.youtube.com/watch?v=uNKDw46_Ev4&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=287 "")
+
+[1. The Geometry of Linear Equations](https://www.youtube.com/watch?v=J7DzL2_Na80&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=288 "")
+
+[21. Eigenvalues and Eigenvectors](https://www.youtube.com/watch?v=cdZnhQjJu4I&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=282 "")
+
+[Lecture 1: The Column Space of A Contains All Vectors Ax](https://www.youtube.com/watch?v=YiqIkSHSmyc&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=47"")
+
+<br></br>
+
+# Open Source Licenses
+[Open Source Software Licensing Basics for Corporate Users](https://www.youtube.com/watch?v=gF4b1TA5Q5w&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=154 "")
+
+[Felix Crux What You Need to Know About Open Source Licenses PyCon 2016](https://www.youtube.com/watch?v=9kGrKBOytYM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=111 "")
+
+[CppCon 2015: Kevin P. Fleming “A Crash Course in Open Source Licensing"](https://www.youtube.com/watch?v=cJIi-hIlCQM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=36 "")
+
+[How to Choose an Open Source License | HackBeanpot 2018](https://www.youtube.com/watch?v=OnmWFxlG2GA&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=37 "")
+
+<br></br>
+
+# Software and Research
+
+[Bob Carpenter - 0 to 100K in 10 years: nurturing an open-source software community (June 10, 2022)](https://www.youtube.com/watch?v=P9gDFHl-Hss&list=WL&index=63 "")
+
+[Science as Amateur Software Development (2023 edition)](https://www.youtube.com/watch?v=8qzVV7eEiaI&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=197 "")
+
+[The Problem with Research Software Engineering](https://www.youtube.com/watch?v=t2BjZ5hSjHo&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=175 "")
+
+[Scientific Software Design 101](https://www.youtube.com/watch?v=ux93eFFiG14&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=160 "")
+
+[How do we measure success for Open Data in academia? | Lauren Cadwallader | SOOCon23 Open Data](https://www.youtube.com/watch?v=wEdnqJ-mfBE&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=118 "")
+
+[Nicholas Tierney - Recognising research software in academia](https://www.youtube.com/watch?v=2Yt0V70CGts&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=40 "")
+
+<br></br>
+
+# Creating R Packages
+[Field Guide to Writing Your First R Package - posit::conf(2023)](https://www.youtube.com/watch?v=-bzgFg_bZXM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=97 "")
+
+[How to Make a Custom R Package](https://www.youtube.com/watch?v=Li8R0QztakM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=137 "")
+
+[Building R packages with devtools and usethis | RStudio](https://www.youtube.com/watch?v=EpTkT6Rkgbs&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=276 "")
+
+<br></br>
+
+# OOP in R
+[Mastering the S3 Object System: Advanced R for everyone](https://www.youtube.com/watch?v=V5M90oonAAg&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=238 "")
+
+<br></br>
+
+
+# Reproducibility in Open Science
+
+[Irina Gaynanova | Replicability, Reproducibility, Reviewing, and Optimism for the Future of Science](https://www.youtube.com/watch?v=MJwsfiEMFL8&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=381 "")
+
+[Garrett Grolemund | R Markdown The bigger picture | RStudio (2019)](https://www.youtube.com/watch?v=s9aWmU0atlQ&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=360 "")
+
+[An Introduction to OSF](https://www.youtube.com/watch?v=iebMBpi0prc&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=257 "")
+
+[Robustness and Transparency in Scientific Methods, Statistics, study design by Daniel Lakens](https://www.youtube.com/watch?v=lMFRXFk35NY&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=335 "")
+
+<br></br>
+
+# Statistical Rethinking
+
+# Scientific Soapboxes
+
+[Science Before Statistics: Causal Inference](https://www.youtube.com/watch?v=KNPYUVmY3NM&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=313)
+
+[What makes a great math explanation? | SoME2 results](https://www.youtube.com/watch?v=cDofhN-RJqg&list=PLtYZJT9NbY0qPJSPqNstmJd-V62w69rHs&index=377 "")
+
+<br></br>

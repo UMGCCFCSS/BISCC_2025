@@ -34,6 +34,8 @@ website:
     right:
     - text: "InstrumentQC"
       href: https://UMGCCFCSS.github.io/InstrumentQC
+    - text: "Resources"
+      href: Resources.qmd
     - icon: github
       href: https://github.com/UMGCCFCSS/BISCC_2025
       aria-label: GitHub
