@@ -153,7 +153,13 @@ print(paste0("The Complexity Index with the Unstained is ", round(With, 2)))
 #| code-fold: true
 Unstained <- Unstained |> select(-Fluorophore)
 
+Hotspot <- MagesCauldron(panelfluors=TheFluorophores, unstained = Unstained, returnType = "data")
+
+#write.csv(Hotspot, "/home/david/Desktop/BISCC3L_Day5.csv", row.names=FALSE)
+
 Hotspot <- Luciernaga:::MagesCauldron(panelfluors=TheFluorophores, unstained = Unstained)
+
+
 ```
 
 ```{r}
